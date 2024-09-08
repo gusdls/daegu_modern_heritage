@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "modern-heritage-map"
+version = "0.1.0"
+description = ""
+authors = ["Dohyun Kim <0704dohyun@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tensorflow = ">=1.7"
+opencv-contrib-python = "^3.3"
+pymodi-plus = "^0.3.0"
+mediapipe = "^0.10.15"
+fastapi = "^0.114.0"
+uvicorn = {extras = ["standard"], version = "^0.30.6"}
+requests = "^2.32.3"
+python-multipart = "^0.0.9"
+deepface = "^0.0.93"
+tf-keras = "^2.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
